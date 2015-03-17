@@ -9,6 +9,6 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://erikmellum.github.io" # the base hostname & protocol for your site
 twitter_username: jekyllrb
 github_username:  jekyll
-
+exclude: [vendor,'README.md', 'Gemfile', 'Gemfile.lock', 'Rakefile']
 # Build settings
 markdown: kramdown
